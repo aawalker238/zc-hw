@@ -1,0 +1,72 @@
+html,
+body {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Anton', sans-serif;
+}
+
+main {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.logo {
+  height: 44px;
+  vertical-align: middle;
+}
+
+.player-container,
+.controls {
+  display: flex;
+  justify-content: space-around;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.game-buttons {
+  display: inline-grid;
+}
+
+.game-buttons button {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+.card-reveal {
+  max-height: 130px;
+  padding: 20px;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.add-player {
+  background: aquamarine;
+}
+
+.reset {
+  background: lightcoral;
+}

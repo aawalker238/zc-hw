@@ -1,0 +1,13 @@
+{
+  "name": "zencastr",
+  "version": "1.0.0",
+  "description": "Zencastr Senior Front End HW",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony A. Walker",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>
+        King of the Diamonds<span
+          ><img class="logo" src="./pics/diamond-logo.svg"
+        /></span>
+      </h1>
+      <div class="instructions">
+        <h3>Overview</h3>
+        <p>
+          This game is called "King of the Diamonds." It is completely made up
+          and is similar to the childhood game, King of the Hill. Each player
+          get 5 cards at a time. They cannont look at their cards. Each player
+          takes turns placing their top card down. The person who has the King
+          of Diamonds wins. When the player has finished with their 5 cards they
+          must be dealt 5 more. If the deck is low enough and there are not
+          enough cards for 5 more, then the game is a tie and nobody wins.
+        </p>
+        <h3>Instructions</h3>
+        <ol>
+          <li>
+            Click the "Add Player" button. Type in player 1's name. Do the same
+            for player 2.
+          </li>
+          <li>Take turns pressing the "Player Attempt" button.</li>
+          <li>
+            If someone places a King of Diamonds they win. If the main deck
+            becomes less than 5 cards and no King of Diamonds had been placed
+            yet, then the game is a tie and nobody is king.
+          </li>
+          <li>To restart this game, press the "Reset" button.</li>
+        </ol>
+      </div>
+      <div class="game-buttons">
+        <button class="add-player">Add Player</button>
+        <button class="reset">Reset</button>
+      </div>
+
+      <section class="add-player-section hidden">
+        <form class="form">
+          <p class="player-name">Player Name</p>
+          <input type="text" class="player-name-input" />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <div class="player-container">
+        <h3>Player 1: <span class="player1"></span></h3>
+        <h3>Player 2: <span class="player2"></span></h3>
+      </div>
+      <div class="controls">
+        <button class="player1-attempt hidden">Player 1 Attempt</button>
+        <button class="player2-attempt hidden">Player 2 Attempt</button>
+      </div>
+
+      <img src="./pics/cards.jpg" alt="" class="card-reveal" />
+      <h1 class="winner-text"></h1>
+    </main>
+    <script src="./main.js" />
+  </body>
+</html>
